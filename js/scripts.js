@@ -13,7 +13,6 @@ $(function() {
     ajax1();
 
     function toUpper(films) {
-        // console.log(films);
         var $film_list = $('#films');
 
         for(var i=0;i<films.length;i++) {
@@ -32,7 +31,7 @@ $(function() {
         toUpper(response.films);
     });
     }
-    // ajax2();
+    ajax2();
 
 
 
@@ -115,18 +114,6 @@ $(function() {
         })
 
     });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
